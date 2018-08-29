@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0"
+    android:orientation="vertical"
+    tools:context=".rest.readposts.getposts.MainScreenActivity$PlaceholderFragment">
+
+<Button
+    android:layout_width="match_parent"
+    android:text="show"
+    android:id="@+id/btn_show"
+    android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:padding="5dp"
+        android:id="@+id/txt_p"
+        android:text="Profile"
+        android:layout_marginLeft="15dp"
+        android:textAlignment="center"
+        android:layout_height="35dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textDirection="ltr"
+        android:textSize="15dp"
+        android:textStyle="italic|normal"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:id="@+id/txt_pro"
+        android:text="pooria.maleki89@gmail.com"
+        android:layout_marginLeft="15dp"
+        android:layout_height="35dp" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViews"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
